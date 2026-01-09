@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Exclusive</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="font-sans">
+
+    <nav class="bg-white border-b border-gray-300 py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Exclusive</a>
+            <ul class="hidden md:flex gap-8">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+        <div class="flex items-center space-x-6">
+            <div class="relative hidden sm:block">
+                <input type="text" placeholder="What are you looking for?" class="bg-gray-100 px-4 py-2 pr-10 rounded text-sm w-72 focus:outline-none border border-transparent text-black font-bold">
+                <i class="fa-solid fa-magnifying-glass absolute right-3 top-2.5 text-black"></i>
+            </div>
+            <div class="flex space-x-5 text-xl text-black">
+            <i class="fa-regular fa-heart cursor-pointer"></i>
+                <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+                <i class="fa-regular fa-user cursor-pointer"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-20">
+        
+        <p class="text-sm text-gray-400 mb-10">Account / My Account / CheckOut</p>
+
+        <h1 class="text-3xl font-medium mb-10 tracking-wider">Billing Details</h1>
+
+        <div class="flex flex-col lg:flex-row gap-20">
+            
+            <div class="w-full lg:w-1/2 space-y-8">
+                <div>
+                    <label class="text-gray-400 block mb-2">First Name<span class="text-red-500">*</span></label>
+                    <input type="text" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                <div>
+                    <label class="text-gray-400 block mb-2">Company Name</label>
+                    <input type="text" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                <div>
+                    <label class="text-gray-400 block mb-2">Street Address<span class="text-red-500">*</span></label>
+                    <input type="text" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                <div>
+                    <label class="text-gray-400 block mb-2">Apartment, floor, etc. (optional)</label>
+                    <input type="text" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                <div>
+                    <label class="text-gray-400 block mb-2">Town/City<span class="text-red-500">*</span></label>
+                    <input type="text" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                <div>
+                    <label class="text-gray-400 block mb-2">Phone Number<span class="text-red-500">*</span></label>
+                    <input type="text" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                <div>
+                    <label class="text-gray-400 block mb-2">Email Address<span class="text-red-500">*</span></label>
+                    <input type="email" class="w-full bg-gray-100 h-12 px-4 outline-none rounded">
+                </div>
+                
+                <div class="flex items-center gap-3">
+                    <input type="checkbox" id="save" class="w-5 h-5 accent-[#DB4444]">
+                    <label for="save" class="text-sm">Save this information for faster check-out next time</label>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/3 space-y-8">
+                
+                <div class="space-y-6">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-4">
+                            <img src="PICS/1.png.png" class="w-12 h-12 object-contain">
+                            <span>H1 Gamepad</span>
+                        </div>
+                        <span>$650</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-4">
+                            <img src="PICS/3.png.png" class="w-12 h-12 object-contain">
+                            <span>LCD Monitor</span>
+                        </div>
+                        <span>$1100</span>
+                    </div>
+                </div>
+
+                <div class="border-b border-gray-300 py-4 flex justify-between">
+                    <span>Subtotal:</span>
+                    <span>$1750</span>
+                </div>
+                <div class="border-b border-gray-300 py-4 flex justify-between">
+                    <span>Shipping:</span>
+                    <span>Free</span>
+                </div>
+                <div class="py-4 flex justify-between font-bold">
+                    <span>Total:</span>
+                    <span>$1750</span>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center gap-3">
+                            <input type="radio" name="pay" class="w-5 h-5 accent-black">
+                            <span>Bank</span>
+                        </div>
+                        <img src="PICS/cards.png" alt="Cards" class="h-6">
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <input type="radio" name="pay" checked class="w-5 h-5 accent-black">
+                        <span>Cash on delivery</span>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <input type="text" placeholder="Coupon Code" class="flex-1 border border-black rounded px-4 py-3 outline-none">
+                    <button class="bg-[#DB4444] text-white px-8 py-3 rounded font-medium">Apply Coupon</button>
+                </div>
+
+                <button class="bg-[#DB4444] text-white w-52 py-4 rounded font-medium hover:bg-red-600 transition-colors">
+                    Place Order
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="mt-10-full bg-black text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16 py-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Exclusive</h3>
+                    <p class="mb-2">Subscribe</p>
+                    <p class="text-sm mb-4">Get 10% off your first order</p>
+                    <div class="flex items-center border border-gray-300 rounded px-4 py-2 max-w-xs">
+                        <input type="email" placeholder="Enter your email "
+                            class="bg-transparent outline-none w-full flex-1 text-sm placeholder-gray-400">
+
+                        <button class="hover:scale-110 transition-transform">➤</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Support</h3>
+                    <p class="text-sm mb-2">111 Bijoy sarani, Dhaka,</p>
+                    <p class="text-sm mb-2">DH 1515, Bangladesh.</p>
+                    <p class="text-sm mb-2">exclusive@gmail.com</p>
+                    <p class="text-sm">+88015-88888-9999</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Account</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>My Account</li>
+                        <li>Login / Register</li>
+                        <li>Cart</li>
+                        <li>Wishlist</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Quick Link</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>Privacy Policy</li>
+                        <li>Terms Of Use</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Download App</h3>
+                    <p class="text-xs mb-4 text-gray-400">
+                        Save $3 with App New User Only
+                    </p>
+
+                    <div class="flex gap-4 mb-6">
+                        <img src="PICS/qr.png" class="w-24 h-24" alt="QR" />
+                        <div class="flex flex-col gap-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                class="h-10" alt="Google Play" />
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                class="h-10" alt="App Store" />
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 items-center">
+                        <a href="https://www.facebook.com">
+                            <img src="PICS/Facebook.png" alt="Facebook" width="20" height="20">
+                        </a>
+
+                        <a href="https://www.twitter.com">
+                            <img src="PICS/twiter.png" alt="Twitter" width="40" height="40">
+                        </a>
+
+                        <a href="https://www.instagram.com">
+                            <img src="PICS/insta.png" alt="Instagram" width="20" height="20">
+                        </a>
+
+                        <a href="https://www.linkedin.com">
+                            <img src="PICS/LinkedIn-preview.png" alt="linkedin" width="30" height="30">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 mt-16 pt-6 text-center text-sm text-gray-500">
+                © Copyright Exclusive 2026. All right reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

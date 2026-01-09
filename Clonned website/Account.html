@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - Exclusive</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="font-sans">
+
+    <div class="bg-black w-full py-3">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-white text-sm">Summer Sale OFF 50%! <a href="#" class="font-bold underline ml-2">ShopNow</a></p>
+        </div>
+    </div>
+
+    <nav class="border-b border-gray-200">
+    <div class="max-w-7xl mx-auto flex items-center justify-between py-5 px-4">
+      <h1 class="font-bold text-2xl tracking-wider">Exclusive</h1>
+      <ul class="hidden md:flex items-center gap-10">
+        <li><a href="Home.html" class="hover:underline">Home</a></li>
+        <li><a href="Contact.html" class="hover:underline">Contact</a></li>
+        <li><a href="About.html" class="hover:underline">About</a></li>
+        <li><a href="Sign Up.html" class="hover:underline">Sign Up</a></li>
+      </ul>
+        <div class="flex items-center space-x-6">
+            <div class="relative hidden sm:block">
+                <input type="text" placeholder="What are you looking for?" class="bg-gray-100 px-4 py-2 pr-10 rounded text-sm w-72 focus:outline-none border border-transparent text-black font-bold">
+                <i class="fa-solid fa-magnifying-glass absolute right-3 top-2.5 text-black"></i>
+            </div>
+            <div class="flex space-x-5 text-xl text-black">
+            <i class="fa-regular fa-heart cursor-pointer"></i>
+                <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+                <i class="fa-regular fa-user cursor-pointer"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-20">
+        
+        <div class="flex justify-between items-center mb-10">
+            <p class="text-sm">Home / <span class="text-black">My Account</span></p>
+            <p>Welcome! <span class="text-[#DB4444]">Md Rimel</span></p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-20">
+            
+            <div class="w-full md:w-1/4">
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-bold mb-4">Manage My Account</h3>
+                        <ul class="ml-8 space-y-2 text-gray-500">
+                            <li class="text-[#DB4444]">My Profile</li>
+                            <li class="hover:text-[#DB4444] cursor-pointer">Address Book</li>
+                            <li class="hover:text-[#DB4444] cursor-pointer">My Payment Options</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-4">My Orders</h3>
+                        <ul class="ml-8 space-y-2 text-gray-500">
+                            <li class="hover:text-[#DB4444] cursor-pointer">My Returns</li>
+                            <li class="hover:text-[#DB4444] cursor-pointer">My Cancellations</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-4">My Wishlist</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-3/4 shadow-lg p-10 rounded">
+                <h2 class="text-[#DB4444] text-xl font-medium mb-8">Edit Your Profile</h2>
+                
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <label class="block mb-2">First Name</label>
+                            <input type="text" placeholder="Md" class="w-full bg-gray-100 p-3 rounded outline-none">
+                        </div>
+                        <div>
+                            <label class="block mb-2">Last Name</label>
+                            <input type="text" placeholder="Rimel" class="w-full bg-gray-100 p-3 rounded outline-none">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <label class="block mb-2">Email</label>
+                            <input type="email" placeholder="rimel1111@gmail.com" class="w-full bg-gray-100 p-3 rounded outline-none">
+                        </div>
+                        <div>
+                            <label class="block mb-2">Address</label>
+                            <input type="text" placeholder="Kingston, 5230, NYC" class="w-full bg-gray-100 p-3 rounded outline-none">
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 pt-4">
+                        <label class="block">Password Changes</label>
+                        <input type="password" placeholder="Current Password" class="w-full bg-gray-100 p-3 rounded outline-none">
+                        <input type="password" placeholder="New Password" class="w-full bg-gray-100 p-3 rounded outline-none">
+                        <input type="password" placeholder="Confirm New Password" class="w-full bg-gray-100 p-3 rounded outline-none">
+                    </div>
+
+                    <div class="flex justify-end items-center gap-8 pt-6">
+                        <button type="button" class="hover:text-[#DB4444]">Cancel</button>
+                        <button type="submit" class="bg-[#DB4444] text-white px-12 py-4 rounded font-medium hover:bg-red-600">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+<footer class="mt-10-full bg-black text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16 py-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Exclusive</h3>
+                    <p class="mb-2">Subscribe</p>
+                    <p class="text-sm mb-4">Get 10% off your first order</p>
+                    <div class="flex items-center border border-gray-300 rounded px-4 py-2 max-w-xs">
+                        <input type="email" placeholder="Enter your email "
+                            class="bg-transparent outline-none w-full flex-1 text-sm placeholder-gray-400">
+
+                        <button class="hover:scale-110 transition-transform">➤</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Support</h3>
+                    <p class="text-sm mb-2">111 Bijoy sarani, Dhaka,</p>
+                    <p class="text-sm mb-2">DH 1515, Bangladesh.</p>
+                    <p class="text-sm mb-2">exclusive@gmail.com</p>
+                    <p class="text-sm">+88015-88888-9999</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Account</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>My Account</li>
+                        <li>Login / Register</li>
+                        <li>Cart</li>
+                        <li>Wishlist</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Quick Link</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>Privacy Policy</li>
+                        <li>Terms Of Use</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Download App</h3>
+                    <p class="text-xs mb-4 text-gray-400">
+                        Save $3 with App New User Only
+                    </p>
+
+                    <div class="flex gap-4 mb-6">
+                        <img src="PICS/qr.png" class="w-24 h-24" alt="QR" />
+                        <div class="flex flex-col gap-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                class="h-10" alt="Google Play" />
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                class="h-10" alt="App Store" />
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 items-center">
+                        <a href="https://www.facebook.com">
+                            <img src="PICS/Facebook.png" alt="Facebook" width="20" height="20">
+                        </a>
+
+                        <a href="https://www.twitter.com">
+                            <img src="PICS/twiter.png" alt="Twitter" width="40" height="40">
+                        </a>
+
+                        <a href="https://www.instagram.com">
+                            <img src="PICS/insta.png" alt="Instagram" width="20" height="20">
+                        </a>
+
+                        <a href="https://www.linkedin.com">
+                            <img src="PICS/LinkedIn-preview.png" alt="linkedin" width="30" height="30">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 mt-16 pt-6 text-center text-sm text-gray-500">
+                © Copyright Exclusive 2026. All right reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

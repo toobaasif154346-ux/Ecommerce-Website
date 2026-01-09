@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive E-Commerce Clone</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="m-0 p-0 font-sans">
+
+    <div class="bg-black w-full min-h-[48px] flex items-center py-2 md:py-0">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 items-center">
+
+            <div class="hidden md:block"></div>
+
+            <div class="text-center">
+                <p class="text-white text-[12px] md:text-[14px] md:whitespace-nowrap">
+                    Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                    <a href="#" class="font-bold underline ml-2 hover:text-gray-300">ShopNow</a>
+                </p>
+            </div>
+
+            <div class="flex items-center justify-center md:justify-self-end mt-2 md:mt-0">
+                <input list="languages" placeholder="English"
+                    class="bg-black text-white text-[14px] w-16 outline-none border-none cursor-pointer">
+                <datalist id="languages">
+                    <option value="English">
+                    <option value="Spanish">
+                    <option value="French">
+                </datalist>
+                <span class="text-white text-[10px] ml-1">▼</span>
+            </div>
+
+        </div>
+    </div>
+
+<nav class="bg-white border-b border-gray-300 py-6">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+
+            <a href="#" class="text-2xl font-bold">Exclusive</a>
+
+            <ul class="flex flex-wrap justify-center items-center gap-6 text-[16px]">
+                <li><a href="index.html" class="hover:underline decoration-2 underline-offset-8">Home</a></li>
+                <li><a href="contact.html" class="hover:underline decoration-2 underline-offset-8">Contact</a></li>
+                <li><a href="about.html" class="hover:underline decoration-2 underline-offset-8">About</a></li>
+                <li><a href="sign-up.html" class="hover:underline decoration-2 underline-offset-8">Sign Up</a></li>
+            </ul>
+
+
+        <div class="flex items-center space-x-6">
+            <div class="relative hidden sm:block">
+                <input type="text" placeholder="What are you looking for?" class="bg-gray-100 px-4 py-2 pr-10 rounded text-sm w-72 focus:outline-none border border-transparent text-black font-bold">
+                <i class="fa-solid fa-magnifying-glass absolute right-3 top-2.5 text-black"></i>
+            </div>
+            <div class="flex space-x-5 text-xl text-black">
+            <i class="fa-regular fa-heart cursor-pointer"></i>
+                <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+                <i class="fa-regular fa-user cursor-pointer"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row">
+
+            <div class="w-full md:w-1/4 pt-10 pb-4 md:border-r border-gray-300">
+                <ul class="flex flex-col gap-4 text-[16px]">
+                    <li class="flex justify-between items-center pr-8 cursor-pointer hover:font-bold">
+                        Woman's Fashion <span>❯</span>
+                    </li>
+                    <li class="flex justify-between items-center pr-8 cursor-pointer hover:font-bold">
+                        Men's Fashion <span>❯</span>
+                    </li>
+                    <li class="cursor-pointer hover:font-bold">Electronics</li>
+                    <li class="cursor-pointer hover:font-bold">Home & Lifestyle</li>
+                    <li class="cursor-pointer hover:font-bold">Medicine</li>
+                    <li class="cursor-pointer hover:font-bold">Sports & Outdoor</li>
+                    <li class="cursor-pointer hover:font-bold">Baby's & Toys</li>
+                    <li class="cursor-pointer hover:font-bold">Groceries & Pets</li>
+                    <li class="cursor-pointer hover:font-bold">Health & Beauty</li>
+                </ul>
+            </div>
+
+            <div class="md:w-3/4 md:pl-10 pt-10">
+                <div
+                    class="bg-black text-white p-12 flex flex-col md:flex-row items-center justify-between rounded-sm relative h-[400px] overflow-hidden">
+                    <div class="space-y-4 z-10">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-brands fa-apple text-4xl"></i>
+                            <span class="text-lg">iPhone 14 Series</span>
+                        </div>
+                        <h2 class="text-5xl font-bold leading-tight">Up to 10% <br> off Voucher</h2>
+                        <a href="#"
+                            class="flex items-center gap-2 underline underline-offset-8 decoration-1 font-medium hover:text-gray-300">
+                            Shop Now <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="mt-8 md:mt-0">
+                        <img src="PICS/bg.png.png" alt="iPhone" class="w-64 md:w-80">
+                    </div>
+
+                    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+                        <div class="w-3 h-3 rounded-full bg-gray-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-gray-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-red-500 border-2 border-white"></div>
+                        <div class="w-3 h-3 rounded-full bg-gray-500"></div>
+                        <div class="w-3 h-3 rounded-full bg-gray-500"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container mx-auto px-4 mt-10 mb-10">
+        <div class="flex flex-col md:flex-row items-start md:items-end gap-10">
+            <div>
+                <div class="flex items-center gap-4 mb-4">
+                    <div class="w-5 h-10 bg-red-500 rounded-sm"></div>
+                    <p class="text-red-500 font-bold">Today's</p>
+                </div>
+                <h1 class="text-3xl md:text-4xl font-bold tracking-wider">Flash Sales</h1>
+            </div>
+            <div class="pb-1">
+                <img src="PICS/date.png.png" alt="Flash Sale Timer" class="h-12 object-contain">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 mb-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+            <div class="group cursor-pointer">
+                <div class="relative bg-gray-100 h-64 flex items-center justify-center rounded">
+                    <span class="absolute top-3 left-3 bg-red-500 text-white text-[12px] px-3 py-1 rounded">-40%</span>
+
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+
+                    <img src="PICS/1.png.png" alt="Product" class="w-40 h-auto object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-opacity">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-2">
+                    <h3 class="font-bold text-[16px]">HAVIT HV-G92 Gamepad</h3>
+                    <div class="flex gap-3">
+                        <span class="text-red-500 font-bold">$120</span>
+                        <span class="text-gray-400 line-through">$160</span>
+                    </div>
+                    <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-400 ml-2">(88)</span></div>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer">
+                <div class="relative bg-gray-100 h-64 flex items-center justify-center rounded">
+                    <span class="absolute top-3 left-3 bg-red-500 text-white text-[12px] px-3 py-1 rounded">-35%</span>
+
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+
+                    <img src="PICS/2.png.png" alt="Product" class="w-40 h-auto object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-opacity">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-2">
+                    <h3 class="font-bold text-[16px]">AK-900 Wired Keyboard</h3>
+                    <div class="flex gap-3">
+                        <span class="text-red-500 font-bold">$960</span>
+                        <span class="text-gray-400 line-through">$1160</span>
+                    </div>
+                    <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-400 ml-2">(75)</span></div>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer">
+                <div class="relative bg-gray-100 h-64 flex items-center justify-center rounded">
+                    <span class="absolute top-3 left-3 bg-red-500 text-white text-[12px] px-3 py-1 rounded">-30%</span>
+
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+
+                    <img src="PICS/3.png.png" alt="Product" class="w-40 h-auto object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-opacity">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-2">
+                    <h3 class="font-bold text-[16px]">IPS LCD Gaming Monitor</h3>
+                    <div class="flex gap-3">
+                        <span class="text-red-500 font-bold">$370</span>
+                        <span class="text-gray-400 line-through">$400</span>
+                    </div>
+                    <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-400 ml-2">(99)</span></div>
+                </div>
+            </div>
+
+            <div class="group cursor-pointer">
+                <div class="relative bg-gray-100 h-64 flex items-center justify-center rounded">
+                    <span class="absolute top-3 left-3 bg-red-500 text-white text-[12px] px-3 py-1 rounded">-25%</span>
+
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+
+                    <img src="PICS/4.png.png" alt="Product" class="w-40 h-auto object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-opacity">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-2">
+                    <h3 class="font-bold text-[16px]">S-Series Comfort Chair</h3>
+                    <div class="flex gap-3">
+                        <span class="text-red-500 font-bold">$375</span>
+                        <span class="text-gray-400 line-through">$400</span>
+                    </div>
+                    <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-400 ml-2">(99)</span></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex justify-center mt-12">
+            <button class="bg-[#DB4444] text-white px-12 py-4 rounded hover:bg-red-600 font-medium transition-colors">
+                View All Products
+            </button>
+        </div>
+    </div>
+    <div class="container mx-auto px-4 mt-20 mb-10">
+    <div class="flex items-center gap-4 mb-4">
+        <div class="w-5 h-10 bg-[#DB4444] rounded-sm"></div>
+        <p class="text-[#DB4444] font-bold text-[16px] md:text-[20px] font-sans">This Month</p>
+    </div>
+
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+        <h1 class="text-[30px] md:text-[36px] font-semibold tracking-wider">
+            Best Selling Products
+        </h1>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 mb-20">
+        <div class="border border-gray-300 rounded flex flex-col items-center justify-center py-6 gap-4 hover:bg-[#DB4444] hover:text-white transition-all cursor-pointer group">
+            <img src="PICS/a.png.png" alt="">
+            <p class="font-medium">Phones</p>
+        </div>
+        <div class="border border-gray-300 rounded flex flex-col items-center justify-center py-6 gap-4 hover:bg-[#DB4444] hover:text-white transition-all cursor-pointer group">
+            <img src="PICS/b.png.png" alt="">
+            <p class="font-medium">Computers</p>
+        </div>
+        <div class="border border-gray-300 rounded flex flex-col items-center justify-center py-6 gap-4 hover:bg-[#DB4444] hover:text-white transition-all cursor-pointer group">
+            <img src="PICS/c.png.png" alt="">
+            <p class="font-medium">SmartWatch</p>
+        </div>
+        <div class="bg-[#DB4444] text-white rounded flex flex-col items-center justify-center py-6 gap-4 cursor-pointer">
+            <img src="PICS/d.png.png" alt="">
+            <p class="font-medium">Camera</p>
+        </div>
+        <div class="border border-gray-300 rounded flex flex-col items-center justify-center py-6 gap-4 hover:bg-[#DB4444] hover:text-white transition-all cursor-pointer group">
+            <img src="PICS/e.png.png" alt="">
+            <p class="font-medium">HeadPhones</p>
+        </div>
+        <div class="border border-gray-300 rounded flex flex-col items-center justify-center py-6 gap-4 hover:bg-[#DB4444] hover:text-white transition-all cursor-pointer group">
+            <img src="PICS/f.png.png" alt="">
+            <p class="font-medium">Gaming</p>
+        </div>
+    </div>
+</div>
+
+       
+</div>
+
+<div class="container mx-auto px-4 mt-20 mb-10">
+    <div class="flex items-center gap-4 mb-4">
+        <div class="w-5 h-10 bg-[#DB4444] rounded-sm"></div>
+        <p class="text-[#DB4444] font-bold text-[16px] md:text-[20px] font-sans">Categories</p>
+    </div>
+
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+        <h1 class="text-[30px] md:text-[36px] font-semibold tracking-wider">
+            Browse by Category
+        </h1>
+        <div class="flex gap-2">
+            <button class="w-11 h-11 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors text-xl">
+                <span>←</span>
+            </button>
+            <button class="w-11 h-11 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors text-xl">
+                <span>→</span>
+            </button>
+        </div>
+    </div>
+
+
+
+        <div class="container mx-auto px-4 mb-20 mt-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+                <div class="group">
+                    <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                        <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                            <a href="wishlist.html"
+                                class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                                <span class="text-xl group-hover/heart:hidden">♡</span>
+                                <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/coat.png" alt="North Coat" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        Add To Cart
+                    </button>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold text-base mb-2">The North Coat</h3>
+                    <div class="flex gap-3 mb-2">
+                        <span class="text-[#DB4444] font-medium font-sans">$260</span>
+                        <span class="text-gray-500 line-through font-sans">$360</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-400 font-medium">(65)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/bag.png" alt="Gucci Bag" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">
+                        Add To Cart
+                    </button>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold text-base mb-2">Gucci duffle bag</h3>
+                    <div class="flex gap-3 mb-2">
+                        <span class="text-[#DB4444] font-medium font-sans">$960</span>
+                        <span class="text-gray-500 line-through font-sans">$1160</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-yellow-400 text-sm">
+                        ★★★★☆ <span class="text-gray-400 font-medium">(65)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/speaker.png" alt="Cooler" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">
+                        Add To Cart
+                    </button>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold text-base mb-2">RGB liquid CPU Cooler</h3>
+                    <div class="flex gap-3 mb-2">
+                        <span class="text-[#DB4444] font-medium font-sans">$160</span>
+                        <span class="text-gray-500 line-through font-sans">$170</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-400 font-medium">(65)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/desk.png" alt="Shelf" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">
+                        Add To Cart
+                    </button>
+                </div>
+                <div class="mt-4">
+                    <h3 class="font-semibold text-base mb-2">Small BookSelf</h3>
+                    <div class="flex gap-3 mb-2">
+                        <span class="text-[#DB4444] font-medium font-sans">$360</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-400 font-medium">(65)</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container mx-auto px-4 mt-20">
+        <div
+            class="bg-black rounded-sm p-8 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10 overflow-hidden relative">
+
+            <div class="z-10 space-y-8">
+                <p class="text-[#00FF66] font-semibold">Categories</p>
+                <h1 class="text-white text-4xl md:text-5xl font-semibold leading-tight tracking-wider">
+                    Enhance Your <br> Music Experience
+                </h1>
+
+                <div class="flex gap-4">
+                    <div class="bg-white w-16 h-16 rounded-full flex flex-col items-center justify-center">
+                        <span class="font-bold text-[16px] leading-none">23</span>
+                        <span class="text-[11px]">Days</span>
+                    </div>
+                    <div class="bg-white w-16 h-16 rounded-full flex flex-col items-center justify-center">
+                        <span class="font-bold text-[16px] leading-none">05</span>
+                        <span class="text-[11px]">Hours</span>
+                    </div>
+                    <div class="bg-white w-16 h-16 rounded-full flex flex-col items-center justify-center">
+                        <span class="font-bold text-[16px] leading-none">59</span>
+                        <span class="text-[11px]">Minutes</span>
+                    </div>
+                    <div class="bg-white w-16 h-16 rounded-full flex flex-col items-center justify-center">
+                        <span class="font-bold text-[16px] leading-none">35</span>
+                        <span class="text-[11px]">Seconds</span>
+                    </div>
+                </div>
+
+                <button
+                    class="bg-[#00FF66] text-white px-10 py-4 rounded-sm hover:bg-[#00e65c] transition-colors font-medium">
+                    Buy Now!
+                </button>
+            </div>
+
+            <div class="relative z-10">
+                <div class="absolute inset-0 bg-gray-400 blur-[80px] opacity-30 rounded-full"></div>
+                <img src="PICS/speaker-1.png" alt="Speaker" class="relative w-full max-w-[500px] object-contain">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container mx-auto px-4 mt-20 mb-10">
+        <div class="flex items-center gap-4 mb-4">
+            <div class="w-5 h-10 bg-[#DB4444] rounded-sm"></div>
+            <p class="text-[#DB4444] font-bold text-[16px] md:text-[20px] font-sans">Our Products</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <h1 class="text-[30px] md:text-[36px] font-semibold tracking-wider">
+                Explore Our Products
+            </h1>
+            <div class="flex gap-2">
+                <button
+                    class="w-11 h-11 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors cursor-pointer text-xl">
+                    <span>◄</span>
+                </button>
+                <button
+                    class="ml-5 w-11 h-11 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors cursor-pointer text-xl">
+                    <span>►</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mx-auto px-4 mb-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-12">
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-1.png" alt="Camera" class="w-32 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">Breed Dry Dog Food</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$360</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★ <span
+                                class="text-gray-300">★★</span><span class="text-gray-400 ml-2">(95)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-2.png" alt="Laptop" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">CANON EOS DSLR Camera</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$700</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★ <span
+                                class="text-gray-300">★</span><span class="text-gray-400 ml-2">(325)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-3.png" alt="Watch" class="w-32 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">ASUS FHD Gaming Laptop</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$500</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★★<span
+                                class="text-gray-400 ml-2">(145)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-4.png" alt="Car" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">Curology Product Set </h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$960</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★<span
+                                class="text-gray-300">★</span><span class="text-gray-400 ml-2">(65)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <span class="absolute top-3 left-3 bg-[#00FF66] text-white text-[12px] px-3 py-1 rounded">NEW</span>
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-5.png" alt="Shoes" class="w-40 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">Kids Electric Car</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$1160</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★★<span
+                                class="text-gray-400 ml-2">(35)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-6.png" alt="Gamepad" class="w-32 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">Jr. Zoom Soccer Cleats</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$660</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★ <span
+                                class="text-gray-300">★</span><span class="text-gray-400 ml-2">(55)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <span class="absolute top-3 left-3 bg-[#00FF66] text-white text-[12px] px-3 py-1 rounded">NEW</span>
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-7.png" alt="Jacket" class="w-32 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">GP11 Shooter USB Gamepad</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$660</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★★<span
+                                class="text-gray-400 ml-2">(55)</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group">
+                <div class="relative bg-[#F5F5F5] h-64 flex items-center justify-center rounded-sm overflow-hidden">
+                    <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
+                        <a href="wishlist.html"
+                            class="group/heart w-8 h-8 bg-white rounded-full flex items-center justify-center transition-all hover:bg-gray-100">
+                            <span class="text-xl group-hover/heart:hidden">♡</span>
+                            <span class="text-xl hidden group-hover/heart:block text-red-500">♥</span>
+                        </a>
+                        <img src="PICS/eye.png" alt="👁" class="w-8 bg-white p-2 rounded-full shadow-sm">
+                    </div>
+                    <img src="PICS/prod-8.png" alt="Speaker" class="w-32 object-contain">
+                    <button
+                        class="absolute bottom-0 w-full bg-black text-white py-2 opacity-0 group-hover:opacity-100 transition-all">Add
+                        To Cart</button>
+                </div>
+                <div class="mt-4 space-y-1">
+                    <h3 class="font-semibold text-base">Quilted Satin Jacket</h3>
+                    <div class="flex items-center gap-3">
+                        <span class="text-[#DB4444] font-medium">$200</span>
+                        <div class="flex items-center text-[#FFAD33] text-sm">★★★★★<span
+                                class="text-gray-400 ml-2">(12)</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="flex items-center justify-center w-full mt-10 mb-10">
+        <button class="bg-[#DB4444] w-56 h-14 text-white rounded-[4px] hover:bg-red-600 transition-colors">
+            View All Products
+        </button>
+    </div>
+
+
+    <div class="container mx-auto px-4 mt-20 mb-20">
+        <div class="flex items-center gap-4 mb-4">
+            <div class="w-5 h-10 bg-[#DB4444] rounded-sm"></div>
+            <p class="text-[#DB4444] font-bold text-[16px]">Featured</p>
+        </div>
+        <h1 class="text-[30px] md:text-[36px] font-semibold tracking-wider mb-10">New Arrival</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-8 h-auto md:h-[600px]">
+
+            <div class="md:col-span-2 md:row-span-2 bg-black rounded relative group overflow-hidden flex items-end">
+                <img src="PICS/ps5.png" alt="PS5" class="w-full h-full object-contain">
+                <div class="absolute bottom-8 left-8 text-white z-10 space-y-2">
+                    <h2 class="text-2xl font-semibold">PlayStation 5</h2>
+                    <p class="text-sm text-gray-300 max-w-[250px]">Black and White version of the PS5 coming out on
+                        sale.</p>
+                    <a href="#" class="inline-block border-b border-gray-400 pb-1 hover:text-gray-300">Shop Now</a>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 bg-[#0D0D0D] rounded relative group overflow-hidden flex items-end">
+                <img src="PICS/women.png" alt="Women's Collection"
+                    class="absolute right-0 bottom-0 h-full object-contain">
+                <div class="absolute bottom-8 left-8 text-white z-10 space-y-2">
+                    <h2 class="text-2xl font-semibold">Women's Collections</h2>
+                    <p class="text-sm text-gray-300 max-w-[250px]">Featured woman collections that give you another
+                        vibe.</p>
+                    <a href="#" class="inline-block border-b border-gray-400 pb-1">Shop Now</a>
+                </div>
+            </div>
+
+            <div
+                class="md:col-span-1 bg-black rounded relative group overflow-hidden flex items-center justify-center p-4">
+                <div class="absolute inset-0 bg-gray-600 blur-[60px] opacity-30"></div>
+                <img src="PICS/speaker-2.png" alt="Speakers" class="relative z-10 w-32 object-contain">
+                <div class="absolute bottom-6 left-6 text-white z-10 space-y-1">
+                    <h2 class="text-xl font-semibold">Speakers</h2>
+                    <p class="text-[12px] text-gray-300">Amazon wireless speakers</p>
+                    <a href="#" class="inline-block border-b border-gray-400 text-sm">Shop Now</a>
+                </div>
+            </div>
+
+            <div
+                class="md:col-span-1 bg-black rounded relative group overflow-hidden flex items-center justify-center p-4">
+                <div class="absolute inset-0 bg-gray-600 blur-[60px] opacity-30"></div>
+                <img src="PICS/perfume.png" alt="Perfume" class="relative z-10 w-32 object-contain">
+                <div class="absolute bottom-6 left-6 text-white z-10 space-y-1">
+                    <h2 class="text-xl font-semibold">Perfume</h2>
+                    <p class="text-[12px] text-gray-300">GUCCI INTENSE OUD EDP</p>
+                    <a href="#" class="inline-block border-b border-gray-400 text-sm">Shop Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+   
+                    <section class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-20 py-10">
+            <div class="flex flex-col items-center text-center gap-4">
+                <div class="bg-gray-300 p-3 rounded-full">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold text-xl uppercase">Free and Fast Delivery</h3>
+                    <p class="text-sm text-gray-600">Free delivery for all orders over $140</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-4">
+                <div class="bg-gray-300 p-3 rounded-full">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center text-xl">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-bold text-xl uppercase">24/7 Customer Service</h3>
+                    <p class="text-sm text-gray-600">Friendly 24/7 customer support</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center text-center gap-4">
+                 <div class="bg-gray-300 p-3 rounded-full">
+                    <div class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center text-xl">
+                        🛡️
+                    </div>
+                </div>
+                <div>
+                <div>
+                    <h3 class="font-bold text-xl uppercase">Money Back Guarantee</h3>
+                    <p class="text-sm text-gray-600">We return money within 30 days</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="mt-10-full bg-black text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16 py-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Exclusive</h3>
+                    <p class="mb-2">Subscribe</p>
+                    <p class="text-sm mb-4">Get 10% off your first order</p>
+                    <div class="flex items-center border border-gray-300 rounded px-4 py-2 max-w-xs">
+                        <input type="email" placeholder="Enter your email "
+                            class="bg-transparent outline-none w-full flex-1 text-sm placeholder-gray-400">
+
+                        <button class="hover:scale-110 transition-transform">➤</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Support</h3>
+                    <p class="text-sm mb-2">111 Bijoy sarani, Dhaka,</p>
+                    <p class="text-sm mb-2">DH 1515, Bangladesh.</p>
+                    <p class="text-sm mb-2">exclusive@gmail.com</p>
+                    <p class="text-sm">+88015-88888-9999</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Account</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>My Account</li>
+                        <li>Login / Register</li>
+                        <li>Cart</li>
+                        <li>Wishlist</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Quick Link</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>Privacy Policy</li>
+                        <li>Terms Of Use</li>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Download App</h3>
+                    <p class="text-xs mb-4 text-gray-400">
+                        Save $3 with App New User Only
+                    </p>
+
+                    <div class="flex gap-4 mb-6">
+                        <img src="PICS/qr.png" class="w-24 h-24" alt="QR" />
+                        <div class="flex flex-col gap-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                                class="h-10" alt="Google Play" />
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                                class="h-10" alt="App Store" />
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4 items-center">
+                        <a href="https://www.facebook.com">
+                            <img src="PICS/Facebook.png" alt="Facebook" width="20" height="20">
+                        </a>
+
+                        <a href="https://www.twitter.com">
+                            <img src="PICS/twiter.png" alt="Twitter" width="40" height="40">
+                        </a>
+
+                        <a href="https://www.instagram.com">
+                            <img src="PICS/insta.png" alt="Instagram" width="20" height="20">
+                        </a>
+
+                        <a href="https://www.linkedin.com">
+                            <img src="PICS/LinkedIn-preview.png" alt="linkedin" width="30" height="30">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 mt-16 pt-6 text-center text-sm text-gray-500">
+                © Copyright Exclusive 2026. All right reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

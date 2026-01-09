@@ -1,0 +1,2 @@
+# exclusive-ecommerce-ui
+A pixel-perfect e-commerce UI built with HTML5 &amp; Tailwind CSS. Replicating the "Exclusive" Figma design, it features 8+ responsive pages, a full checkout flow, product galleries, and user dashboards. Focuses on clean, utility-first code and modern interactive elements. A robust foundation for any modern e-commerce storefront project.
